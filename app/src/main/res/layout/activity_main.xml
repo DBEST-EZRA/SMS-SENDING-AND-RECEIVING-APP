@@ -22,7 +22,9 @@
         android:id="@+id/select"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text = "Select Contact" />
+        android:text = "Select Contact"
+        android:textColor="@color/white"
+        android:background="#E60B0B"/>
 
     <EditText
         android:id="@+id/message_here"
@@ -41,7 +43,9 @@
         android:id="@+id/btnSendSMS"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text = "Send SMS" />
+        android:text = "Send SMS"
+        android:textColor="@color/white"
+        android:background="#FFE60B0B"/>
 
     <TextView
         android:id="@+id/tester"
